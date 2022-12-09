@@ -28,10 +28,6 @@ class Persona2:
     
     def miFuncion(self):
         print("Hola mi nombre es "+self.nombre + " mi cedula es {self.cedula} y tengo {self.edad} anos")
-p2 = Persona2()
-
-p2.nombre = "XD"
-p2.cedula = 123123
-p2.edad = 12
+p2 = Persona2("xd",123123,123)
 
 p2.miFuncion()
